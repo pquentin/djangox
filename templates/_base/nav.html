@@ -1,0 +1,25 @@
+<nav class="my-2">
+    {% if user.is_authenticated %}
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ user.email }}
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                <li>
+                    <a class="dropdown-item" href="{% url 'account_change_password' %}">Change password</a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                    <a class="dropdown-item" href="{% url 'account_logout' %}">Log out</a>
+                </li>
+            </ul>
+        </div>
+
+    {% else %}
+        <form class="form-inline ml-auto">
+            <a href="{% url 'account_login' %}" class="btn btn-outline-secondary">Log in</a>
+            <a href="{% url 'account_signup' %}" class="btn btn-primary">Sign up</a>
+        </form>
+    {% endif %}
+</nav>
