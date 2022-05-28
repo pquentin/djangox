@@ -2,6 +2,7 @@ asgiref==3.5.2
 certifi==2022.5.18.1
 cffi==1.15.0
 charset-normalizer==2.0.12
+crispy-bootstrap5==0.6
 cryptography==37.0.2
 defusedxml==0.7.1
 Django==4.0.4
