@@ -1,3 +1,8 @@
+Forked from https://github.com/wsvincent/djangox
+- htmx-ready htmx / django-htmx
+- bootstrap 5.2 ready - including crispy-bootstrap5 (yes, I like living on the edge) 
+
+
 > A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
 
 ## 🚀 Features
