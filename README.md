@@ -1,6 +1,6 @@
 Forked from https://github.com/wsvincent/djangox
-- htmx-ready htmx / django-htmx
-- bootstrap 5.2 ready - including crispy-bootstrap5 (yes, I like living on the edge) 
+- htmx-ready [htmx](https://htmx.org/) / [django-htmx](https://github.com/adamchainz/django-htmx)
+- bootstrap 5.2 ready - including [crispy-bootstrap5](https://github.com/django-crispy-forms/crispy-bootstrap5) (yes, I like living on the edge)
 
 
 > A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
@@ -27,7 +27,7 @@ Forked from https://github.com/wsvincent/djangox
 * [Contributing](#contributing)
 * [Support](#support)
 * [License](#license)
-
+p
 ----
 
 ## 📖 Installation
@@ -92,6 +92,7 @@ The `INTERNAL_IPS` configuration in `django_project/settings.py` must be also be
 # config/settings.py
 # django-debug-toolbar
 import socket
+
 hostname, _, ips = socket.gethostbyname_ex(socket.gethostname())
 INTERNAL_IPS = [ip[:-1] + "1" for ip in ips]
 ```
