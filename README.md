@@ -1,4 +1,5 @@
 Forked from https://github.com/wsvincent/djangox
+- use [pre-commit](https://pre-commit.com/) hooks
 - htmx-ready [htmx](https://htmx.org/) / [django-htmx](https://github.com/adamchainz/django-htmx)
 - bootstrap 5.2 ready - including [crispy-bootstrap5](https://github.com/django-crispy-forms/crispy-bootstrap5) (yes, I like living on the edge)
 
