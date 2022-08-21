@@ -29,7 +29,6 @@ Forked from https://github.com/wsvincent/djangox
 * [Contributing](#contributing)
 * [Support](#support)
 * [License](#license)
-p
 ----
 
 ## 📖 Installation
