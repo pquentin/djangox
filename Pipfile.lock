@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "12f21c1557a4d02a0f4288993fd5b4831768b1db74438da82ffbe1a73bb1dd2c"
+            "sha256": "79725a3d679d3bd1323105ac0446fd42d342055f43f7ee61ac98244f157c2dde"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -146,17 +146,15 @@
         },
         "django": {
             "hashes": [
-                "sha256:41bd65a9e5f8a89cdbfa7a7bba45cd7431ae89e750af82dea8a35fd1a7ecbe66",
-                "sha256:9c6d5ad36be798e562ddcaa6b17b1c3ff2d3c4f529a47432b69fb9a30f847461"
+                "sha256:031ccb717782f6af83a0063a1957686e87cb4581ea61b47b3e9addf60687989a",
+                "sha256:032f8a6fc7cf05ccd1214e4a2e21dfcd6a23b9d575c6573cacc8c67828dbe642"
             ],
-            "index": "pypi",
-            "version": "==4.0.7"
+            "version": "==4.1"
         },
         "django-allauth": {
             "hashes": [
                 "sha256:ca1622733b6faa591580ccd3984042f12d8c79ade93438212de249b7ffb6f91f"
             ],
-            "index": "pypi",
             "version": "==0.51.0"
         },
         "django-crispy-forms": {
@@ -164,7 +162,6 @@
                 "sha256:35887b8851a931374dd697207a8f56c57a9c5cb9dbf0b9fa54314da5666cea5b",
                 "sha256:bc4d2037f6de602d39c0bc452ac3029d1f5d65e88458872cc4dbc01c3a400604"
             ],
-            "index": "pypi",
             "version": "==1.14.0"
         },
         "django-debug-toolbar": {
@@ -172,7 +169,6 @@
                 "sha256:95fc2fd29c56cc86678aae9f6919ececefe892f2a78c4004b193a223a8380c3d",
                 "sha256:fe7fe3f21865218827e2162ecc06eba386dfe8cffe4f3501c49bb4359e06a0e6"
             ],
-            "index": "pypi",
             "version": "==3.6.0"
         },
         "idna": {
@@ -250,7 +246,6 @@
                 "sha256:e847774f8ffd5b398a75bc1c18fbb56564cda3d629fe68fd81971fece2d3c67e",
                 "sha256:ffb7a888a047696e7f8240d649b43fb3644f14f0ee229077e7f6b9f9081635bd"
             ],
-            "index": "pypi",
             "version": "==2.9.3"
         },
         "pycparser": {
@@ -315,7 +310,6 @@
                 "sha256:8e9c600a5c18bd17655ef668ad55b5edf6c24ce9bdca5bf607649ca4b1e8e2c2",
                 "sha256:8fa943c6d4cd9e27673b70c21a07b0aa120873901e099cd46cab40f7cc96d567"
             ],
-            "index": "pypi",
             "version": "==6.2.0"
         }
     },
